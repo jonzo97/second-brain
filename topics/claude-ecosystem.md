@@ -62,3 +62,11 @@ Skills, agents, plugins, hooks, commands, and extension repos for Claude Code.
 - The ecosystem is moving fast (2025-2026). Star counts may reflect hype as much as quality - check issue trackers
 - "Skills" = model-invoked; "Agents" = subagents in `.claude/agents/`; "Commands" = user-invoked slash commands; "Hooks" = lifecycle event scripts
 - Skills/agents/commands don't traverse parent dirs like CLAUDE.md does (known limitation)
+
+## Research Topics
+
+- [ ] Context estimation for Claude Code — Status line plugin to show token usage. Community solutions needed.
+- [ ] Pre-compact context preservation — Token-efficient hooks for saving state before compaction. Memory Bank pattern.
+- [ ] Cross-project communication — Shared mailbox pattern at ~/.claude/cross-project.md with inbox hook
+- [ ] Deep research workflow — Structured prompt→ingest→squeeze→triage→PRD cycle at ~/cc_agents/docs/deep-research-workflow.md
+- [ ] Browser automation for research — Comet browser, Playwright for automating Gemini/Perplexity web UIs

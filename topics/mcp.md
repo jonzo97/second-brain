@@ -18,3 +18,9 @@ Specs, tutorials, servers, and tooling for MCP.
 
 - [ ] **NotebookLM MCP** - Set up and connect the NotebookLM MCP server to Claude Code. Would enable querying NotebookLM sources/notebooks directly from the CLI.
 - [ ] **[Obsidian](https://obsidian.md/)** - Research whether Obsidian is the right tool for organizing this "second brain." Markdown-based, local-first, plugin ecosystem, graph view for connections. Potential future integration with OpenClaw. Needs a research deep-dive to evaluate fit.
+
+## Research Topics
+
+- [ ] Progressive tool discovery — `defer_loading` for 20-100 tools, code execution for 100+. Key insight: skip MCP entirely for less than 20 tools, use direct Python recipes instead.
+- [ ] Direct-code execution pattern — Agent writes Python that calls libraries directly via Bash instead of MCP protocol. 98.7% token savings vs MCP. Pattern at ~/cc_agents/recipes/_PATTERN.md
+- [ ] Tool use examples — JSON schema + input_examples for 72%→90% accuracy on complex parameter handling

@@ -15,3 +15,13 @@ Agent frameworks, orchestration tools, and agentic coding patterns.
 - [ ] [DeerFlow](https://github.com/bytedance/deer-flow) - Deep Research framework (ByteDance) - web search, crawling, Python execution
 - [ ] [Gemini Browser](https://github.com/browserbase/gemini-browser) - Gemini computer use on Browserbase
 - [ ] [Letta](https://www.letta.com/blog/introducing-sonnet-4-5-and-the-memory-omni-tool-in-letta) - Memory omni-tool, persistent agent memory
+
+## Research Topics
+
+- [ ] Effort-based agent hierarchy — Opus 4.6 effort parameter: medium matches Sonnet 4.5 SWE-bench at 76% fewer tokens. Dynamic escalation patterns.
+- [ ] Ralph fresh-context pattern — Spawn fresh Claude session per iteration, state via git only. Prevents context rot.
+- [ ] Hook-driven agent triggering — PreToolUse/PostToolUse hooks for automatic agent spawning
+- [ ] Trust scoring per agent — Track success/failure rates, adjust autonomy based on performance
+- [ ] Cross-agent test verification — Independent verification agent validates test claims
+- [ ] [DeerFlow deep research automation](https://github.com/bytedance/deer-flow) — Can it automate Gemini Deep Research handoff?
+- [ ] Parallel worktree orchestration — L-thread/P-thread/B-thread taxonomy for multiple Ralph loops
