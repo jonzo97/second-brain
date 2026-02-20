@@ -54,6 +54,7 @@ If any link in this chain breaks (especially "Surface" and "ACT"), everything st
 │  Learning ──────→ Courses, podcasts, spaced repetition  │
 │  Career ────────→ Network, collaborators, differentiation│
 └─────────────────────────────────────────────────────────┘
+```
 
 ## What Unblocks What
 
