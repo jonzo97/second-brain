@@ -1,0 +1,27 @@
+# Second Brain
+
+A curated collection of tools, repos, articles, and things to explore. Personal knowledge base and "second brain" - imported from Chrome bookmarks and expanded over time. Will eventually integrate with OpenClaw.
+
+## Structure
+
+- `bookmarks/` - Raw bookmark exports and structured data
+- `topics/` - Organized by topic area (see below)
+
+## Topics
+
+| File | What's in it |
+|------|-------------|
+| [LLM Platforms & APIs](topics/llm-platforms.md) | Claude, Gemini, Groq, OpenRouter, LMArena, Abacus |
+| [AI Agents & Frameworks](topics/agents.md) | LangChain, LangGraph, Goose, DeerFlow, Serena, Letta |
+| [MCP (Model Context Protocol)](topics/mcp.md) | Specs, tutorials, servers, registries |
+| [RAG & Knowledge Graphs](topics/rag.md) | RAGify, UniversalRAG, knowledge graph tools |
+| [Local AI](topics/local-ai.md) | LM Studio, n8n, self-hosted setups |
+| [Edge AI & ML Models](topics/edge-ai.md) | VectorBlox, PINTO model zoo, ModelNova |
+| [AI Productivity Tools](topics/ai-tools.md) | TypingMind, Napkin, Otter, Fireflies, Gamma, etc. |
+| [Claude Code Ecosystem](topics/claude-ecosystem.md) | Skills, agents, plugins, hooks, commands, awesome lists |
+| [Dev Tools & IDEs](topics/dev-tools.md) | Zed, Theia, Copilot, promptfoo, Claude Code configs |
+| [Hardware](topics/hardware.md) | AI mini PCs, Jetson Orin, PolarFire SoM |
+| [Learning & Courses](topics/learning.md) | Videos, tutorials, whitepapers, courses |
+| [Reading List](topics/reading.md) | Articles, papers, blog posts to read |
+| [Creative & Misc](topics/creative.md) | Image gen, design, random cool stuff |
+| [Work Internal](topics/work-internal.md) | MCHP Confluence/Sharepoint links (do not access) |
