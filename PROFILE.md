@@ -36,6 +36,16 @@ Started ~2024 after getting stood up on a date by a girl using ChatGPT for law s
 - Coming from hardware gives different problem-solving instincts
 - Stubborn enough to push through blockers that stop most people
 - Real-world integration experience in a sales organization, not just toy projects
+- On an internal MCHP team building agentic orchestration tools for CAD software
+
+**The stubbornness, clarified:**
+Not brute-force stubborn. If the obvious path is blocked, won't keep banging on it. Will step back, find a creative workaround, and get there a different way. Not afraid of things that block me - just won't waste time on dead ends. This instinct comes from hardware debugging where you can't just "try again" - you have to understand why.
+
+**Career positioning:**
+All of this learning isn't just for fun. Being one of the few FAEs who can build AI tools, understand agentic architectures, and integrate them into real workflows is a significant career differentiator. The LinkedIn series, the open-source contributions, and the team involvement all feed into becoming a recognized voice in the AI + hardware intersection.
+
+**The social angle:**
+Beyond career - want to find people to collaborate with, learn from, and talk to about this stuff. The LinkedIn series isn't just broadcasting, it's finding a tribe. Being on the cutting edge can be lonely when nobody around you is doing the same things.
 
 ## How My Brain Works (ADHD)
 
@@ -45,8 +55,15 @@ Started ~2024 after getting stood up on a date by a girl using ChatGPT for law s
 - If things are not RIGHT IN FRONT OF ME, I forget they exist
 - Motivation is momentum-based - once rolling, can go for hours; getting started is the hard part
 - Default behavior when bored: YouTube, hanging out (path of least resistance)
-- Opening Claude and figuring out a project to work on feels like too much friction
+- Opening Claude and figuring out a project to work on feels like too much friction ("pain in the ass")
 - Things get lost: Chrome tabs, Claude chats, voice memos, ideas
+- **Activation energy**: even opening a tool is sometimes too much. System needs to PUSH things to me, not wait for me to pull.
+
+### The Repetition Trap
+- Morning brain dumps often cover the same ground without progressing to action
+- Example: have discussed the LinkedIn series at least 6 times in brain dumps without writing a single post
+- This is the classic ADHD planning-without-executing loop
+- **The system needs to detect this**: "You've mentioned X six times. Here's the smallest possible next step."
 
 ### What Works
 - **Low friction access** - if I can get to something in <10 seconds, I'll use it
@@ -55,12 +72,19 @@ Started ~2024 after getting stood up on a date by a girl using ChatGPT for law s
 - **Interest-driven** - let me pick what suits my mood for the day/hour
 - **Passive learning** - podcasts, audio content I can consume at gym/lunch/bed
 - **Brain dumps** - talking through problems out loud, then processing the transcript
+- **This repo as a brain dump venue** - Claude Code sessions like this one ARE brain dumps that get captured and organized in real time
 
 ### What Doesn't Work
-- Live AI models (Gemini Live, ChatGPT Live, Claude Live) - not enough depth, hard to keep on track, disappointing
+- **Live AI models** (Gemini Live, ChatGPT Live, Claude Live) - tested extensively, disappointed:
+  - Not enough technical depth
+  - Not well researched
+  - Hard to keep on track and focused
+  - ChatGPT especially annoying recently - surface-level, not actionable
+  - Not a viable way to brainstorm or "get brain in gear"
 - Long-form reading when not in the mood
 - Being told what to do in rigid order
 - Anything that requires multiple steps to access
+- Planning without a forcing function to execute
 
 ### Current Brain Dump Workflow
 1. Google Recorder on Pixel 10 Pro
@@ -69,6 +93,8 @@ Started ~2024 after getting stood up on a date by a girl using ChatGPT for law s
 4. Extract transcript from recording
 5. Dump into a Claude chat
 6. **Problem**: Gets lost in the sea of Claude chats, never resurfaced
+7. **Problem**: Often repeats the same topics without progressing to action
+8. **Problem**: Valuable technical conversations also scattered across many Claude chats
 
 ## What I Need From This System
 
@@ -83,10 +109,26 @@ Started ~2024 after getting stood up on a date by a girl using ChatGPT for law s
 - [ ] OpenClaw as always-on assistant
 - [ ] Automated trend tracking (YouTube, HuggingFace, GitHub)
 
+### Medium-Term
+- [ ] Remote Claude Code access from phone (SSH setup)
+- [ ] OpenClaw as always-on assistant
+- [ ] Automated trend tracking (YouTube, HuggingFace, GitHub)
+- [ ] Spaced repetition system for technical learning (terminology, concepts)
+- [ ] Claude chat history export → RAG for mining past conversations
+
 ### Long-Term
 - [ ] Full second brain: Obsidian + OpenClaw + automations
 - [ ] LinkedIn thought leadership series
 - [ ] Teaching others what I've learned
+
+## The Big Picture Goals
+
+Everything in this system serves these outcomes:
+1. **Gain momentum** - reduce friction to start, maintain streaks
+2. **Stay current** - keep up with the AI world without it feeling like work
+3. **Accelerate learning** - passive + active, spaced repetition, right terminology
+4. **Be better at my job** - the FAE who actually integrates AI, not just talks about it
+5. **Prepare for the future** - career positioning, network building, skill stacking
 
 ## Devices & Ecosystem
 

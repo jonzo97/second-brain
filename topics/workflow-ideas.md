@@ -174,8 +174,13 @@ This would bridge the gap between "at my desk" and "on the go" - could review co
 - [ ] Can Tailscale make SSH from phone to home machine painless?
 - [ ] Which of my projects could work in a cloud/container env vs. need local tools?
 
+### Priority Projects for Remote Access
+1. **second-brain** (this repo) - lightweight, markdown-only, great test case
+2. **cc_agents** - the agentic framework, high value, needs Python + Claude Code
+3. Everything else after these two are working
+
 ### Priority
-This is high priority - the faster this is set up, the more downtime becomes productive time (gym, lunch, bed, commute). Even getting ONE project accessible remotely would be a big win.
+This is high priority - the faster this is set up, the more downtime becomes productive time (gym, lunch, bed, commute). Even getting ONE project accessible remotely would be a big win. Start with second-brain (simplest) then cc_agents (most valuable).
 
 ---
 

@@ -27,9 +27,28 @@ Videos, tutorials, whitepapers, and courses to work through.
 
 - [ ] [Git Workflow (Atlassian)](https://www.atlassian.com/git/tutorials/comparing-workflows) - Comparing git workflows
 
+## Spaced Repetition & Terminology
+
+**Core concern**: Knowing how something works but not being able to name it properly undermines credibility in professional settings. "Not sounding dumb" requires having the right terminology on tap.
+
+### System (To Build)
+- [ ] After learning a new concept, create a review item (term + explanation + context)
+- [ ] Review daily for 1 week, then weekly for 1 month
+- [ ] Focus areas: framework names, architecture patterns, acronyms, correct terminology
+- [ ] Could use Anki, a simple markdown file, or an OpenClaw quiz skill
+- [ ] NotebookLM podcasts serve as passive reinforcement layer
+
+### Prompt/Context Engineering (Active Learning Area)
+- [ ] Struggled with prompt engineering - still learning
+- [ ] Context engineering is where the real leverage is (and harder to learn)
+- [ ] Resources: Anthropic Academy, agentic coding patterns from IndyDevDan
+- [ ] This is a LinkedIn series topic too ("Why prompt engineering is overrated")
+
 ## Fundamentals to Learn (Priority)
 
 These are knowledge gaps blocking progress on side projects. Good candidates for NotebookLM podcasts.
+
+**NOTE**: These topics feed directly into the NotebookLM podcast pipeline (see google-drive.md). Generate a podcast → save to Drive → listen at gym.
 
 ### Docker
 - [ ] Learn Docker fundamentals (images, containers, volumes, networking)

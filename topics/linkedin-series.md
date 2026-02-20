@@ -2,6 +2,23 @@
 
 A planned series of LinkedIn posts documenting Jon's path from AI novice to building agentic frameworks. Goal: share lessons, find collaborators, build thought leadership.
 
+## Status: Discussed 6+ Times, Never Started
+
+This has come up in morning brain dumps at least 6 times without a single word being written. The blocker is a combination of:
+- **Friction**: Sitting down to write feels like a big commitment
+- **Time**: Other projects (cc_agents, FPGA work, learning) always take priority
+- **Perfectionism**: Wanting it to be good, which makes it hard to just start
+- **Not knowing where to begin**: The story has so many threads
+
+### Breaking the Loop
+The key insight: **don't write, talk.** The brain dump workflow IS the writing process:
+1. Do a 5-minute voice recording on ONE specific topic
+2. Process the transcript with Claude
+3. Claude shapes it into a LinkedIn post draft
+4. Review, tweak, post
+
+That's it. No sitting down to "write." No blank page. Just talk like you're explaining it to a friend, which is what you already do in brain dumps.
+
 ## Why Write This
 
 - Very few FAEs/hardware engineers are doing what Jon is doing with AI
@@ -9,6 +26,7 @@ A planned series of LinkedIn posts documenting Jon's path from AI novice to buil
 - Could attract collaborators, new connections, job opportunities
 - Forces reflection and consolidation of what's been learned
 - Helps others who are earlier in their journey
+- **Finding a tribe**: being on the cutting edge is lonely when nobody around you is doing the same things. This is about finding people to talk to, not just broadcasting.
 
 ## The Story Arc
 
@@ -50,11 +68,13 @@ A planned series of LinkedIn posts documenting Jon's path from AI novice to buil
 - [ ] The tools that actually stuck vs. the ones I abandoned
 
 #### "Lessons & Hot Takes" Series
-- [ ] Live AI models are disappointing (and here's why)
+- [ ] Live AI models are disappointing (and here's why) - Tested Gemini Live, ChatGPT Live, Claude Live extensively. None provide enough technical depth, stay on track, or give well-researched responses. ChatGPT especially bad recently.
 - [ ] ADHD and AI: how I use AI to compensate for executive function
 - [ ] The difference between knowing about AI and actually using it
-- [ ] Why prompt engineering is overrated and context engineering matters more
+- [ ] Why prompt engineering is overrated and context engineering matters more (struggled with both, context engineering is where the real leverage is)
 - [ ] The tools I wish existed (and am trying to build)
+- [ ] "I got started because I got stood up on a date" - the origin story as a standalone hook post
+- [ ] What I don't know yet (honest about gaps: Docker, Node.js, React, cloud infra)
 
 ## Format Ideas
 

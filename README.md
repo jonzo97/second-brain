@@ -7,6 +7,7 @@ A curated collection of tools, repos, articles, and things to explore. Personal 
 ## Structure
 
 - `PROFILE.md` - Who I am, how I work, ADHD constraints, devices & subscriptions
+- `CONNECTIONS.md` - How everything links together, what unblocks what, priority tiers
 - `bookmarks/` - Raw bookmark exports and structured data
 - `topics/` - Organized by topic area (see below)
 
