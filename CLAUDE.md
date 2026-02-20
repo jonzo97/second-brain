@@ -12,7 +12,10 @@ Personal knowledge base and "second brain" — curated tools, repos, articles, r
 This project is part of a multi-project workspace. A shared mailbox exists for coordination:
 
 **Shared mailbox:** `~/.claude/cross-project.md`
-- Check this file at the start of sessions for pending messages from other projects
+- Automatically checked on session start via inbox hook (shows pending messages)
+- If user says **"check your inbox"** mid-session, read `~/.claude/cross-project.md` for pending messages
+- After reading a message, update its status: `pending` → `read by second-brain (YYYY-MM-DD)`
+- After acting on it: `read` → `completed by second-brain (YYYY-MM-DD)`
 - Write handoff notes here when your work produces artifacts useful to other projects
 - See `~/cc_agents/docs/cross-project-patterns.md` for the full pattern documentation
 
