@@ -67,6 +67,14 @@ These are knowledge gaps blocking progress on side projects. Good candidates for
 - [ ] Relevant for: building web UIs for side projects, dashboards
 - [ ] **Make a NotebookLM podcast on React + Vercel**
 
+### Claude Co-Work (Research Priority)
+- [ ] Research what Claude Co-Work can actually do (capabilities, limitations)
+- [ ] Figure out personal use cases - this repo might be ideal (markdown-heavy, research-oriented)
+- [ ] Could Co-Work handle: trend research, article digestion, brain dump processing?
+- [ ] **Teach a session to colleagues**: best practices and SECURE use cases
+- [ ] Security considerations: what data is safe to use with Co-Work, what isn't
+- [ ] Compare vs Claude Code for different workflows
+
 ### Cloud / SSH / Remote Dev
 - [ ] How SSH connections work for remote development
 - [ ] Setting up cloud VMs (AWS/GCP basics)
