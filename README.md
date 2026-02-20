@@ -34,6 +34,7 @@ A curated collection of tools, repos, articles, and things to explore. Personal 
 
 | File | What's in it |
 |------|-------------|
+| [Research Switchboard](topics/research-switchboard.md) | Prompt queue, Google Drive ingestion, routing table, tracking system |
 | [Workflow & Automation Ideas](topics/workflow-ideas.md) | YouTube digest, Perplexity, N8N hooks, remote Claude Code, hardware hosts |
 | [Brain Dump System](topics/brain-dump-system.md) | Voice recording → transcript → action items pipeline |
 | [Google Drive & Mobile](topics/google-drive.md) | Drive organization, NotebookLM podcasts, Pixel + Gemini workflow |
