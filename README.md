@@ -25,3 +25,12 @@ A curated collection of tools, repos, articles, and things to explore. Personal 
 | [Reading List](topics/reading.md) | Articles, papers, blog posts to read |
 | [Creative & Misc](topics/creative.md) | Image gen, design, random cool stuff |
 | [Work Internal](topics/work-internal.md) | MCHP Confluence/Sharepoint links (do not access) |
+
+## Trending & Time-Sensitive
+
+| File | What's in it |
+|------|-------------|
+| [HuggingFace Trending](topics/huggingface-trending.md) | Feb 2026 snapshot: models, spaces, datasets |
+| [GitHub Trending](topics/github-trending.md) | Feb 2026 snapshot: hot repos, AI tools, dev tools |
+| [OpenClaw](topics/openclaw.md) | #1 trending repo, personal AI assistant, future integration target |
+| [Anthropic Blog (3 months)](topics/anthropic-blog.md) | 55+ posts Dec 2025 - Feb 2026, awaiting Haiku digest |
