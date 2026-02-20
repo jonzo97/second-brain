@@ -25,3 +25,11 @@ Agent frameworks, orchestration tools, and agentic coding patterns.
 - [ ] Cross-agent test verification — Independent verification agent validates test claims
 - [ ] [DeerFlow deep research automation](https://github.com/bytedance/deer-flow) — Can it automate Gemini Deep Research handoff?
 - [ ] Parallel worktree orchestration — L-thread/P-thread/B-thread taxonomy for multiple Ralph loops
+
+## cc_agents Cross-References
+
+Recipes and patterns living in `~/cc_agents/` that are relevant here:
+- `~/cc_agents/recipes/chromadb.md` — Direct-code ChromaDB recipe (skip MCP, use Python)
+- `~/cc_agents/docs/deep-research-workflow.md` — Repeatable research cycle (prompt→ingest→squeeze→PRD→execute)
+- `~/cc_agents/recipes/_PATTERN.md` — Template for direct-code recipes
+- `~/cc_agents/research/prompts/` — 10 pre-written Gemini Deep Research prompts ready to batch-run

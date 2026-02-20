@@ -19,3 +19,6 @@ Retrieval-augmented generation and knowledge graph tools.
 - [ ] RAG evaluation frameworks — RAGAS and alternatives for measuring retrieval quality
 - [ ] Hybrid search patterns — BM25 + vector search combination, fusion strategies
 - [ ] Embedding model comparison 2026 — Nomic, Jina, BGE vs all-MiniLM-L6-v2. What's current best for code+docs?
+- [ ] Project-specific knowledge bases — Indexed docs, past decisions, codebase patterns per project. Feed into agent context at session start.
+- [ ] Cross-project memory via knowledge graph — Patterns, decisions, and learnings that apply across repos. Graph-db approach (see learning.md) or shared MCP memory server.
+- [ ] Deep research workflow — Repeatable prompt→ingest→squeeze→PRD→execute cycle. Pattern at `~/cc_agents/docs/deep-research-workflow.md`
