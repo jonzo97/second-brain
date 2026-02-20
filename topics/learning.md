@@ -75,6 +75,15 @@ These are knowledge gaps blocking progress on side projects. Good candidates for
 - [ ] Security considerations: what data is safe to use with Co-Work, what isn't
 - [ ] Compare vs Claude Code for different workflows
 
+### Graph Databases & Knowledge Graphs
+- [ ] Learn graph database fundamentals (nodes, edges, properties, traversals)
+- [ ] Neo4j vs lighter alternatives (SurrealDB, TypeDB, DGraph)
+- [ ] How knowledge graphs relate to RAG and AI memory systems
+- [ ] Was exploring this in ~/meta-project for cross-project monitoring (Anthropic MCP or graph-db approach)
+- [ ] Relevant for: second-brain semantic connections, cc_agents memory, OpenClaw knowledge layer
+- [ ] **Make a NotebookLM podcast on graph databases** - great passive learning candidate
+- [ ] **cc_agents recipe idea**: graph-db integration for cross-project knowledge
+
 ### Cloud / SSH / Remote Dev
 - [ ] How SSH connections work for remote development
 - [ ] Setting up cloud VMs (AWS/GCP basics)

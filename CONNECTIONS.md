@@ -69,6 +69,15 @@ These unblock everything else:
 | Remote Claude Code setup (SSH for second-brain) | Working on projects from anywhere |
 | Brain dump processing prompt (MVP) | Stop losing ideas, detect repetition |
 
+### Tier 1.5: Quick Wins (Free Tokens + Low Friction)
+These cost nothing and have immediate payoff:
+
+| Task | Unlocks |
+|------|---------|
+| Test OpenCode with corporate Copilot OAuth | Free AI tokens for side projects, code reviews, test generation |
+| Evaluate VSCode extension vs Windows Terminal | Better daily Claude Code experience, fix current pain points |
+| Audit ~/meta-project | Decide merge/migrate/keep, stop maintaining orphaned repo |
+
 ### Tier 2: Multipliers (Do Next)
 These amplify everything from Tier 1:
 
@@ -79,6 +88,8 @@ These amplify everything from Tier 1:
 | Claude history → RAG | Mine past conversations for lost ideas |
 | N8N + Telegram hook | Remote Claude Code access, notifications |
 | LinkedIn first post | Career positioning, finding collaborators (break the 6x loop!) |
+| Inter-project communication protocol | Stop manual copy-paste between repos, enable automation |
+| Nightly `claude -p` health check | Automated project monitoring without meta-project overhead |
 
 ### Tier 3: Power-Ups (When Ready)
 These are cool but not urgent:
@@ -89,6 +100,9 @@ These are cool but not urgent:
 | Full automation pipeline (YouTube → digest → store) | Automated trend tracking |
 | Spaced repetition system | Better retention of terminology |
 | Perplexity scheduled research | Passive knowledge gathering |
+| Graph database for cross-project knowledge | Semantic connections between everything |
+| Cursor IDE evaluation | "Best of both worlds" with Claude Code + native completions |
+| Mega second-brain monorepo experiment | Eliminate inter-project friction entirely |
 
 ## Project Interconnections
 
@@ -109,4 +123,28 @@ Learning Pipeline:
   learning.md topics → NotebookLM podcasts → Google Drive → Phone → Gym
   learning.md topics → Spaced repetition → Daily review → Retention
   Anthropic blog → Haiku digest → Action items → Projects
+
+Corporate Token Pipeline:
+  GitHub Copilot (corporate) → OpenCode/copilot-api → Free AI for side projects
+  M365 Copilot (corporate) → Research API hooks → Office automation?
+
+Monitoring Pipeline:
+  meta-project / nightly cron → `claude -p` → git status scan → report
+  cc-caffeine → keeps laptop awake during long agent runs
+
+Inter-Project Comms (evolving):
+  cross-project.md mailbox ──→ Agent Teams (experimental) ──→ Graph DB? MCP?
 ```
+
+## New Research Threads
+
+These are active questions that need investigation:
+
+| Question | Where to Track | Priority |
+|----------|---------------|----------|
+| Is Cursor worth $20/month for dual-AI? | dev-tools.md | Medium |
+| Can Claude Co-Work replace meta-project? | workflow-ideas.md, learning.md | High |
+| Best terminal for WSL Claude Code? | dev-tools.md | High (daily pain) |
+| What M365 Copilot APIs exist? | workflow-ideas.md | Low |
+| Graph-db for cross-project knowledge? | learning.md, rag.md | Future |
+| Mega monorepo vs separate repos? | workflow-ideas.md | Medium |
