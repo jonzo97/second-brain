@@ -26,6 +26,12 @@ A curated collection of tools, repos, articles, and things to explore. Personal 
 | [Creative & Misc](topics/creative.md) | Image gen, design, random cool stuff |
 | [Work Internal](topics/work-internal.md) | MCHP Confluence/Sharepoint links (do not access) |
 
+## Future Workflows
+
+| File | What's in it |
+|------|-------------|
+| [Workflow & Automation Ideas](topics/workflow-ideas.md) | YouTube digest pipeline, Perplexity research automation, subscription tracker |
+
 ## Trending & Time-Sensitive
 
 | File | What's in it |

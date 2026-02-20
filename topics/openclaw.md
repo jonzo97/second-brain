@@ -67,6 +67,21 @@ WhatsApp, Telegram, Slack, Discord, Google Chat, Signal, iMessage, Teams, Matrix
 - [ ] [Obsidian second brain integration](https://notesbylex.com/openclaw-the-missing-piece-for-obsidians-second-brain)
 - [ ] [Snyk security research](https://snyk.io/blog/openclaw-skills-credential-leaks-research/)
 
+## Deployment Ideas (Jon's Hardware)
+
+Trying to get OpenClaw running on something always-on. Options being considered:
+
+| Device | Status | Notes |
+|--------|--------|-------|
+| Old laptop (leave at work) | Have it | Easiest path, full Linux |
+| Steam Deck | Have it | Linux, portable, decent specs |
+| Raspberry Pi | Buying this weekend? | Cheap, official guide exists, low power |
+| Mini PC (GMKtec etc.) | Considering | Best performance/size ratio, costs $ |
+| **RISC-V dev kit** | Have them, fun challenge | PIC64-GX, BeagleV-Fire - sitting unused |
+
+### RISC-V Challenge
+Getting OpenClaw on RISC-V would be a unique project. Node.js does run on RISC-V (experimental) but the ecosystem is thin. SQLite works but vector embeddings (needed for OpenClaw memory) will be the hard part.
+
 ## Integration Plan (Future)
 
 This `second-brain` repo will eventually merge into an OpenClaw-powered workflow:

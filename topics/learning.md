@@ -26,3 +26,30 @@ Videos, tutorials, whitepapers, and courses to work through.
 ## Git & Workflow
 
 - [ ] [Git Workflow (Atlassian)](https://www.atlassian.com/git/tutorials/comparing-workflows) - Comparing git workflows
+
+## Fundamentals to Learn (Priority)
+
+These are knowledge gaps blocking progress on side projects. Good candidates for NotebookLM podcasts.
+
+### Docker
+- [ ] Learn Docker fundamentals (images, containers, volumes, networking)
+- [ ] Docker Compose for multi-service setups
+- [ ] How n8n, OpenClaw, and other self-hosted tools use Docker
+- [ ] **Make a NotebookLM podcast on Docker basics**
+
+### Node.js
+- [ ] Node.js fundamentals (event loop, npm, modules)
+- [ ] Relevant because: OpenClaw is Node/TypeScript, MCP servers are often Node
+- [ ] **Make a NotebookLM podcast on Node.js basics**
+
+### React + Vercel
+- [ ] React fundamentals (components, state, hooks)
+- [ ] Vercel deployment workflow
+- [ ] Relevant for: building web UIs for side projects, dashboards
+- [ ] **Make a NotebookLM podcast on React + Vercel**
+
+### Cloud / SSH / Remote Dev
+- [ ] How SSH connections work for remote development
+- [ ] Setting up cloud VMs (AWS/GCP basics)
+- [ ] Tailscale for mesh VPN
+- [ ] Claude Code remote/mobile setup via SSH
