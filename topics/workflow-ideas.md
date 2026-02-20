@@ -75,6 +75,35 @@ Tracking what Jon has access to for building pipelines.
 
 ---
 
+## "What Should I Work On?" System
+
+**The ADHD-critical feature.** When Jon has downtime and momentum, present options by effort/interest so he can just pick and go.
+
+### Concept
+A command or prompt that scans across all topic files and surfaces:
+- **Quick wins** (~5-15 min): Install something, read a short article, check out a repo
+- **Medium tasks** (~30-60 min): Set up a tool, work through a tutorial, write a draft
+- **Deep dives** (~2+ hrs): Build a pipeline, configure infrastructure, write an article
+
+### Filtered by mood/context:
+- **"I'm at the gym"** → Podcasts to listen to, articles to read on phone
+- **"I'm at my desk with energy"** → Build something, configure something
+- **"I'm in bed, low energy"** → Light reading, YouTube videos, brainstorming
+- **"I have 10 minutes"** → Quick installs, bookmark reviews, one-off tasks
+
+### Implementation Options
+- [ ] Simple: a script that scans `- [ ]` items across all topic files and categorizes
+- [ ] Medium: Claude Code skill that reads repo and presents prioritized options
+- [ ] Full: OpenClaw skill that proactively suggests based on time of day and context
+
+### Date & Time Awareness
+Should use system date/time to:
+- Track when items were added (staleness)
+- Know time of day for context-appropriate suggestions
+- Track streaks / consistency
+
+---
+
 ## Future Pipeline Architecture
 
 ```

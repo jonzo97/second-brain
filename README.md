@@ -1,9 +1,12 @@
 # Second Brain
 
-A curated collection of tools, repos, articles, and things to explore. Personal knowledge base and "second brain" - imported from Chrome bookmarks and expanded over time. Will eventually integrate with OpenClaw.
+A curated collection of tools, repos, articles, and things to explore. Personal knowledge base and "second brain" - imported from Chrome bookmarks and expanded over time. Will eventually integrate with OpenClaw + Obsidian.
+
+**Design principle**: Optimized for ADHD - low friction, quick access, "show me my options" over "figure out what to do." See [PROFILE.md](PROFILE.md) for full context.
 
 ## Structure
 
+- `PROFILE.md` - Who I am, how I work, ADHD constraints, devices & subscriptions
 - `bookmarks/` - Raw bookmark exports and structured data
 - `topics/` - Organized by topic area (see below)
 
@@ -26,11 +29,14 @@ A curated collection of tools, repos, articles, and things to explore. Personal 
 | [Creative & Misc](topics/creative.md) | Image gen, design, random cool stuff |
 | [Work Internal](topics/work-internal.md) | MCHP Confluence/Sharepoint links (do not access) |
 
-## Future Workflows
+## Systems & Workflows
 
 | File | What's in it |
 |------|-------------|
-| [Workflow & Automation Ideas](topics/workflow-ideas.md) | YouTube digest pipeline, Perplexity research automation, subscription tracker |
+| [Workflow & Automation Ideas](topics/workflow-ideas.md) | YouTube digest, Perplexity, N8N hooks, remote Claude Code, hardware hosts |
+| [Brain Dump System](topics/brain-dump-system.md) | Voice recording → transcript → action items pipeline |
+| [Google Drive & Mobile](topics/google-drive.md) | Drive organization, NotebookLM podcasts, Pixel + Gemini workflow |
+| [LinkedIn Series](topics/linkedin-series.md) | Planned article series on AI journey, story arc, content calendar |
 
 ## Trending & Time-Sensitive
 
