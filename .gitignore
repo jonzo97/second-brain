@@ -1,6 +1,13 @@
 # Claude Code
 .claude/
 
+# Research switchboard (local state)
+.credentials/
+.research-tracker.json
+.research-jobs.json
+.research-staging/
+.mcp.json
+
 # OS
 .DS_Store
 Thumbs.db

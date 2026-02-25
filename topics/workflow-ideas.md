@@ -390,3 +390,24 @@ Could pipe results to Telegram via n8n, or store in second-brain as a daily log.
 - [ ] Test if Claude Co-Work can monitor git repos and generate reports
 - [ ] Design a nightly `claude -p` script that replicates meta-project's monitoring
 - [ ] Decide: merge, migrate, or keep separate?
+
+---
+
+## Cross-Project Coordination Insights (Research #05, Feb 2026)
+*Source: extract_cross_project_coordination.md*
+
+### Patterns Worth Adopting
+- **Handoff vs Consultation distinction** — Most cc_agents cross-project interactions are consultations (query-and-return), not full handoffs (ownership transfer). Making this explicit reduces token waste.
+- **JIT Context Loading** — Hold pointers (file paths, commit hashes), load data only when the current reasoning step needs it. Avoids "kitchen-sink" context dumps that cause 20-25% accuracy loss.
+- **Stop hook for auto-handoff** — Auto-generate `handoff.md` on session end with 4 fields: goal, learned, modified files, next steps. High-value build candidate for cc_agents.
+- **Merge conflict as feature (aman-pm pattern)** — When two agents write contradictory learnings, the git conflict forces reconciliation rather than silent overwrite.
+- **"Task-repo" pattern (Daniel Rosehill)** — A dedicated repo holding only specs and success criteria, no code. Agent reads task-repo and executes across other projects. More formalized version of what `~/second-brain` already partially does.
+
+### Open Questions (Cross-Project)
+- [ ] Should `~/second-brain` formally become the Blackboard orchestrator? Migration path from markdown mailbox to structured state machine?
+- [ ] At what point does flat mailbox warrant migration to shared Kuzu/SQLite MCP knowledge graph? Leading indicators?
+- [ ] Stop hook implementation — build candidate for cc_agents. Has it been started?
+- [ ] inotifywait viability in WSL2 — reliable for watching WSL2 filesystem paths?
+- [ ] Input filters on handoffs — trim conversation history before passing to specialist. Reduces "handoff tax."
+- [ ] Claude Code memory leak (v2.1.21 and earlier) — 60GB virtual memory growth. Monitor with `ps aux | grep claude`, periodic `/clear` until patched.
+- [ ] NanoClaw container-isolated agents — relevant if cc_agents needs different trust levels.
