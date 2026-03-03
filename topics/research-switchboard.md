@@ -67,6 +67,7 @@ Pre-written prompts also at `~/cc_agents/research/prompts/` (10 ready as of 2026
 
 | # | Topic | Prompt Location | Output Routes To | Status |
 |---|-------|----------------|-----------------|--------|
+| 12 | Skills, agents, and AI coding ecosystem 2026 | `~/cc_agents/research/prompts/12_skills-agents-ecosystem.md` | cc_agents best practices + second-brain topics (agents.md, workflow-ideas.md) | queued |
 | 06 | Pre-compact context preservation | `~/cc_agents/research/prompts/06_pre_compact_preservation.md` | cc_agents best practices | **covered by prompt 03** — review extract before queueing separately |
 | 07 | Obsidian as second-brain backend | `~/cc_agents/research/prompts/07_obsidian_evaluation.md` | NotebookLM podcast → mcp.md PRD | queued |
 | 08 | NotebookLM integration patterns | `~/cc_agents/research/prompts/08_notebooklm_integration.md` | mcp.md + google-drive.md | queued |
