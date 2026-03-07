@@ -393,6 +393,58 @@ Could pipe results to Telegram via n8n, or store in second-brain as a daily log.
 
 ---
 
+## "Loot Back" One-Shot Prompt Pattern
+*Source: Feb 27 brainstorm squeeze*
+
+After completing a complex multi-prompt task, generate a one-shot prompt that reproduces the result. Add learnings to the knowledge base. Prevents re-doing hard work in future sessions.
+
+**When to use:** Anytime a task takes >3 prompts or requires significant exploration before arriving at the right approach.
+
+**Implementation:**
+1. After completing the complex task, ask: "Produce me a prompt so I can one-shot this next time"
+2. Save the generated prompt to the relevant project's knowledge base
+3. Add any new learnings (gotchas, constraints discovered) alongside it
+
+**Could be automated** via a PostToolUse hook or a `/loot-back` skill that triggers at session end.
+
+---
+
+## Spaced Repetition Review Cadence
+*Source: Feb 27 brainstorm squeeze*
+
+Review schedule for learned material:
+- **Daily** for a week after learning
+- **Weekly** for a month
+- **Monthly** for a year
+
+**Implementation ideas:**
+- Tag items with a `learned_date` and review cadence
+- NotebookLM interactive mode for flashcard-style review
+- Trigger reviews automatically (cron + `claude -p` or n8n)
+- Live voice models getting good enough for interactive quizzing
+
+---
+
+## Meta-Monitor / Heartbeat Concept
+*Source: Feb 27 brainstorm squeeze*
+
+An always-running (or nightly cron) process that tracks the state of all projects. Solves "Monday morning amnesia" — come back after the weekend and know exactly where everything stands.
+
+**What it tracks per project:**
+- Last commit date + message
+- Open future improvements / pending tasks
+- Uncommitted changes
+- Branch status
+
+**Sync approach:**
+- Git-based sync between machines (current)
+- Nightly heartbeat cron on home machine
+- Manual sync on work machine + auto on home
+
+**Connects to:** Meta-Project Monitoring section below, nightly project health check in "Claude Code Auto-Run & Scheduling" section above.
+
+---
+
 ## Cross-Project Coordination Insights (Research #05, Feb 2026)
 *Source: extract_cross_project_coordination.md*
 

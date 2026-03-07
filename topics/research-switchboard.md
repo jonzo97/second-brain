@@ -78,6 +78,9 @@ Pre-written prompts also at `~/cc_agents/research/prompts/` (10 ready as of 2026
 
 | Topic | Why | Routes To |
 |-------|-----|-----------|
+| Ethernet deep dive (10BASE-T1S, TSN, EtherCAT, RGMII, PHY) | Knowledge gap for customer conversations, need conceptual + practical | NotebookLM podcast + flashcards |
+| FPGA RAG image/diagram extraction pipeline | Missing capability — can't retrieve diagrams from datasheets | cc_agents PRD + rag.md |
+| NotebookLM automation (pre-customer review generation) | Pain point: need audio overviews ready before walks/breaks | workflow-ideas.md + cc_agents |
 | Terminal/IDE setup for Claude Code on WSL | Daily pain point, need to pick a terminal | dev-tools.md |
 | GitHub Copilot token leverage patterns | Maximize corporate free tokens | workflow-ideas.md |
 | Claude Co-Work capabilities & limits | High priority research, may replace meta-project | learning.md + workflow-ideas.md |

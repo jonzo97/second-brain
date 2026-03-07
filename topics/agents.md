@@ -48,6 +48,13 @@ Agent frameworks, orchestration tools, and agentic coding patterns.
 - [ ] [roo-code-memory-bank](https://github.com/GreatScottyMac/roo-code-memory-bank) — Reference implementation of Memory Bank pattern for Roo Code/Cline. Study for pattern extraction. (from research: cross-project coordination)
 - [ ] [Supermemory MCP](https://github.com/supermemory) — Cross-client context sharing via MCP. Evaluate if flat mailbox becomes bottleneck. (from research: cross-project coordination)
 
+## Unconventional AI Use Cases
+*Source: Feb 27 brainstorm squeeze*
+
+- **Game mod management:** Used Claude Code for Hearts of Iron mod management — unpacking archives, moving files, changing version strings in configs, verifying version number matches. Repetitive file manipulation that's perfect for agentic coding. Haven't seen anyone else do this publicly.
+
+---
+
 ## Framework Analysis (5-Repo Survey, Feb 2026)
 *Source: cc_agents analysis of 5 major agent frameworks*
 

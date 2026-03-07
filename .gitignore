@@ -8,6 +8,9 @@
 .research-staging/
 .mcp.json
 
+# Personal (not for repo)
+.personal-todos.md
+
 # OS
 .DS_Store
 Thumbs.db
